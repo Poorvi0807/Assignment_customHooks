@@ -1,6 +1,16 @@
 import React, { useRef } from 'react';
 import useFetch from './useFetch';
-import { useLocalStorage, useDebounce, useWindowSize, usePrevious, useHover, useOnClickOutside, useTimeout, useIntersectionObserver, useMediaQuery } from './yourCustomHooks';
+import {
+  useLocalStorage,
+  useDebounce,
+  useWindowSize,
+  usePrevious,
+  useHover,
+  useOnClickOutside,
+  useTimeout,
+  useIntersectionObserver,
+  useMediaQuery
+} from './useFetch';
 
 function App() {
   // Example for useFetch
